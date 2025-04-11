@@ -6,8 +6,7 @@ frontend:
                 - 'npm install -g pnpm'
                 - 'pnpm install'
         build:
-            commands:
-                - 'pnpm run build'
+            commands: []
     artifacts:
         baseDirectory: dist
         files:
